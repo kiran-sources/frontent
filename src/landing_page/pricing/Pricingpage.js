@@ -1,15 +1,15 @@
 import React from 'react';
-import Hero from '../home/Hero';
+import Hero from './Hero';  // Create a pricing-specific Hero
 import Openaccount from '../OpenAccount';
 import Brokerage from './Brokerage';
+
 function PricingPage() {
-    return (  
-        <>
-    
-        <Hero/>
-        <Openaccount/>
-        <Brokerage/>
-            </>
+    return (
+        <div className="pricing-page">
+            <Hero />
+            <Brokerage />
+            <Openaccount />
+        </div>
     );
 }
 

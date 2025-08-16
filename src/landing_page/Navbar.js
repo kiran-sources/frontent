@@ -38,6 +38,7 @@ function Navbar() {
                 <Link className="nav-link active" to="/support">
                   Support
                 </Link>
+                
               </li>
             </ul>
           </form>
